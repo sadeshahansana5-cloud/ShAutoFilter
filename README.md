@@ -30,7 +30,7 @@ git clone https://github.com/USERNAME/REPO_NAME.git && cd REPO_NAME
 pip3 install --user -r requirements.txt
 ```
 ### පියවර 4: Bot එක පසුබිමින් පණගැන්වීම (Run in Background)
-#### මෙය කිරීමෙන් ඔබ ලොග්-අවුට් වුවද Bot එක දිගටම වැඩ කරයි
+### මෙය කිරීමෙන් ඔබ ලොග්-අවුට් වුවද Bot එක දිගටම වැඩ කරයි
 ```bash
 nohup python3 bot.py &
 ```
