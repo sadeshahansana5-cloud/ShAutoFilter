@@ -17,6 +17,9 @@
 
 ඔබේ GitHub Repository එකෙහි ඇති Code එක PythonAnywhere වෙත Deploy කිරීමට පහත පියවර අනුගමනය කරන්න.
 
+### පලමුව PythonAnywhere ගොස් Free Account එකක් හදාගන්න.
+**PythonAnywhere Site Lunk -** https://www.pythonanywhere.com
+
 ### පියවර 01: Code එක ලබා ගැනීම (Clone)
 PythonAnywhere හි **Bash Console** එකක් විවෘත කර පහත විධානය ලබා දෙන්න:
 
