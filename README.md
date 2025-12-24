@@ -20,5 +20,24 @@
 ### පියවර 01: Code එක ලබා ගැනීම (Clone)
 PythonAnywhere හි **Bash Console** එකක් විවෘත කර පහත විධානය ලබා දෙන්න:
 
+# පියවර 1 සහ 2: Repo එක Clone කර Folder එක තුළට යාම
+# (මෙහි 'USERNAME' සහ 'REPO' වෙනුවට ඔබේ තොරතුරු ලබා දෙන්න)
 ```bash
-git clone [https://github.com/ඔබ](https://github.com/ඔබ)ේ_USERNAME/ඔබේ_REPO_නම.git
+git clone https://github.com/USERNAME/REPO_NAME.git && cd REPO_NAME
+```
+# පියවර 3: අවශ්‍ය Libraries ස්ථාපනය කිරීම
+```bash
+pip3 install --user -r requirements.txt
+```
+# පියවර 4: Bot එක පසුබිමින් පණගැන්වීම (Run in Background)
+# මෙය කිරීමෙන් ඔබ ලොග්-අවුට් වුවද Bot එක දිගටම වැඩ කරයි
+```bash
+nohup python3 bot.py &
+```
+# පියවර 5: Bot එක සර්වර් එකේ Run වන බව තහවුරු කර ගැනීම
+```bash
+ps aux | grep bot.py
+```
+echo "--------------------------------------------------"
+echo "✅ SH Filter Bot එක සාර්ථකව පණගන්වන ලදී!"
+echo "--------------------------------------------------"
